@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>honda cbr bootstrap</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+   
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      :root {
+        --main-color: #e76f51;
+      }
+      body{
+        font-family: 'Poppins', sans-serif;
+      }
+      .hero {
+
+        background-color: #264653;
+      }
+      .hero-btn,.form-btn,.dct-btn {
+        background: var(--main-color);
+        font-weight: 600;
+      }
+      .featureImg-1,
+      .featureImg-3 {
+        filter: grayscale();
+      }
+      .card-paragraph {
+        color: gray;
+      }
+      .stars i {
+        color: var(--main-color);
+      }
+      .card .owner-name {
+        color: #23a6f0;
+      }
+      .client-header span,.faq-header span,.sign-up-header span,.dct-header span{
+          color: var(--main-color);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- hero section start -->
+    <section class="hero d-flex align-items-center justify-content-center">
+      <div class="container py-5">
+        <div class="row d-flex align-items-center justify-content-between">
+          <div class="text-white col-lg-6 col-md-10">
+            <p class="fw-light">
+              Computer-controlled digital transistarized with electronic advance
+            </p>
+            <h1 class="text-capitalize fw-bold h1">honda cbr 300R</h1>
+            <p class="my-4 fw-light w-75">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button class="px-5 py-2 text-white btn hero-btn text-capitalize" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Purchase
+            </button>
+            <!-- modal -->
+
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                
+                  <div class="modal-body text-dark">
+                    Honda offers all exclusive offers from dealers with cash discount, attractive finance deals and other add ons for two wheelers in this festive seaso
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-lg-6 mt-md-5">
+            <img src="images/header-bike.png" class="img-fluid" alt="Bike" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+    <!-- feature section start -->
+    <section class="feature">
+      <div class="container py-5">
+        <div class="text-center feature-header">
+          <h1 class="text-capitalize fw-bold">feature bikes 2021</h1>
+          <p class="text-danger fw-bold">best bike collection</p>
+        </div>
+        <div class="my-5 row gx-5 justify-content-between">
+          <div class="col-lg-3 col-sm-10 pe-0 d-flex align-items-center justify-content-center mt-2">
+            <img
+              src="images/feature-bike.jpg"
+              class="featureImg-1 w-75"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-3 col-sm-10 pe-0 my-sm-5 d-flex align-items-center justify-content-center mt-2">
+            <img
+              src="images/feature-bike.jpg"
+              class="w-75 featureImg-2"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-3 col-sm-10 pe-0 d-flex align-items-center justify-content-center mt-2">
+            <img
+              src="images/feature-bike.jpg"
+              class="w-75 featureImg-3"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature section end -->
+    <!-- client section start -->
+    <section class="client">
+      <div class="container py-5">
+        <h1 class="mb-5 text-center client-header">Happy <span>Clients says</span></h1>
+        <div class="row gx-5">
+          <div class="col-lg-4 col-sm-12 pe-0 mt-2">
+            <div class="py-4 text-center card">
+              <div class="mx-auto card-img w-50">
+                <img
+                  src="images/user-1.png"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <p class="mx-auto mt-3 card-paragraph w-75 fw-light">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+
+                <div class="stars">
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i
+                    class="far fa-star d-inline-block ms-2"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <h6 class="mb-3 mt-2 owner-name text-capitalize fw-bold">
+                  regina miles
+                </h6>
+                <p class="fw-bold">banker</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 pe-0 mt-2">
+            <div class="py-4 text-center card">
+              <div class="mx-auto card-img w-50">
+                <img
+                  src="images/user-2.png"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <p class="mx-auto mt-3 card-paragraph w-75 fw-light">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+
+                <div class="stars">
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i
+                    class="far fa-star d-inline-block ms-2"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <h6 class="mb-3 mt-2 owner-name text-capitalize fw-bold">
+                  regina miles
+                </h6>
+                <p class="fw-bold">banker</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 pe-0 mt-2">
+            <div class="py-4 text-center card">
+              <div class="mx-auto card-img w-50">
+                <img
+                  src="images/user-3.jpg"
+                  class="card-img-top  rounded-circle" style="height: 200px; width: 200px;"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <p class="mx-auto mt-3 card-paragraph w-75 fw-light">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+
+                <div class="stars">
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i class="fa fa-star d-inline-block ms-2"></i>
+                  <i
+                    class="far fa-star d-inline-block ms-2"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <h6 class="mb-3 mt-2 owner-name text-capitalize fw-bold">
+                  regina miles
+                </h6>
+                <p class="fw-bold">banker</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- client section end -->
+    <!-- faq section start -->
+    <section class="faq">
+        <div class="container">
+            <h1 class="faq-header text-capitalize h1 text-center">frequently asked <span>questions</span></h1>
+            <div class="row my-5 align-items-center">
+                <div class="col-lg-6">
+                    <img src="images/faq.png" class="w-75" alt="">
+                </div>
+                <div class="col-lg-6 mt-2">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              What are the most important things I should know about riding a bike?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                            </div>
+                          </div>  
+                        </div>
+                        <div class="accordion-item mt-4">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              How can I tell if my helmet is old and I need a new one?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mt-4">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                             My bike has been in storage is it safe to ride?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mt-4">
+                            <h2 class="accordion-header" id="headingFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                              What rules should I follow when riding my bike?
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq section end -->
+    <!-- extra section  -->
+
+    <!-- sign up form section start -->
+    <section class="sign-up">
+      <div class="container py-5">
+        <h1 class="mb-5 text-center text-capitalize sign-up-header">Sign up to get  <span>latest updates</span></h1>
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputName" 
+               
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn text-white  form-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sign up form section end -->
+    <!-- dct section start -->
+    <section class="dct ">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="text-capitalize dct-header">automatic DCT <span>transmission</span></h2>
+            <h6 class="my-3">Exclusive technology that will change the way you ride</h6>
+            <p class="text-muted my-4 ">The Honda Automatic DCT Transmission makes the best parts of riding more enjoyable while, reducing unnecessary hassles. With all the performance of a manual transmission and the convenience of an automatic, you’ll stay connected to your machine, and free to experience the world around you. There’s a lot to explore out there—let’s start by exploring DCT.</p>
+            <button class="btn dct-btn text-uppercase text-white py-2 px-4">discover dct</button>
+          </div>
+          <div class="col-md-6 mt-sm-5 mt-3">
+            <img src="images/m_cb-hornet-160-r_11539695724.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- dct section end -->
+
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/7d373d31ff.js" crossorigin="anonymous"></script>
+    <!-- bootstarp -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
